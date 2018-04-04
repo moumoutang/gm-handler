@@ -1,0 +1,25 @@
+{
+  "name": "gm-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start process.yml",
+    "restart": "pm2 restart all",
+    "stop": "pm2 stop all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@githost.in66.cc:yueyue/gm-handler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "express": "^4.16.3",
+    "gm": "^1.23.1",
+    "pm2": "^2.10.2",
+    "request": "^2.85.0"
+  }
+}
